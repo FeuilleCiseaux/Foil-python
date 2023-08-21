@@ -3,10 +3,10 @@ logging.basicConfig(level=logging.INFO)
 
 import unittest
 
-from trimlogic.term import *
-from trimlogic.predicate import *
-from trimlogic.algorithm import *
-from trimlogic.stdlib import *
+from content.Foil-python.trimlogic.term import *
+from content.Foil-python.trimlogic.predicate import *
+from content.Foil-python.trimlogic.algorithm import *
+from content.Foil-python.trimlogic.stdlib import *
 
 class PrologTestCase(unittest.TestCase):
   def assertHaveSameElements(self, expected, given):
