@@ -1,7 +1,7 @@
-from trimlogic.algorithm import fol_bc_ask
-from trimlogic.term import VariableFactory
-from trimlogic.predicate import *
-from trimlogic.stdlib import *
+from content.Foil-python.trimlogic.algorithm import fol_bc_ask
+from content.Foil-python.trimlogic.term import VariableFactory
+from content.Foil-python.trimlogic.predicate import *
+from content.Foil-python.trimlogic.stdlib import *
 
 def consult(query):
   print str(query)
