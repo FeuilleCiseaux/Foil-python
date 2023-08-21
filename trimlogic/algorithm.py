@@ -1,9 +1,9 @@
 import logging
-import trimlogic.predicate
+import content.Foil-python.trimlogic.predicate
 from collections import deque
-from trimlogic.stdlib import cut
-from trimlogic.term import *
-from trimlogic.util import *
+from content.Foil-python.trimlogic.stdlib import cut
+from content.Foil-python.trimlogic.term import *
+from content.Foil-python.trimlogic.util import *
 logger = logging.getLogger(__name__)
 
 def log_unify(unify_func):
