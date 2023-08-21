@@ -1,5 +1,5 @@
 import unittest
-from trimlogic.algorithm import fol_bc_ask
+from content.Foil-python.trimlogic.algorithm import fol_bc_ask
 
 PRINT_RULES = True
 
