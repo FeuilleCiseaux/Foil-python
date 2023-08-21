@@ -1,12 +1,12 @@
 import logging
 import unittest
-from trimlogic.test.helper import FoilTestCase
-from trimlogic.predicate import KnowledgeBase
-from trimlogic.predicate import RuleBasedPredicate
-from trimlogic.predicate import VariableFactory, UniqueVariableFactory, AtomFactory
-from trimlogic.foil import TrainingSet, find_gainful_and_determinate_literals, construct_clause_recursive, foil, find_partial_ordering_of_terms, determine_param_orderings
-from trimlogic.algorithm import fol_bc_ask
-from trimlogic.term import Atom
+from content.Foil-python.trimlogic.test.helper import FoilTestCase
+from content.Foil-python.trimlogic.predicate import KnowledgeBase
+from content.Foil-python.trimlogic.predicate import RuleBasedPredicate
+from content.Foil-python.trimlogic.predicate import VariableFactory, UniqueVariableFactory, AtomFactory
+from content.Foil-python.trimlogic.foil import TrainingSet, find_gainful_and_determinate_literals, construct_clause_recursive, foil, find_partial_ordering_of_terms, determine_param_orderings
+from content.Foil-python.trimlogic.algorithm import fol_bc_ask
+from content.Foil-python.trimlogic.term import Atom
 
 class FamilyMemberFactory:
   
@@ -89,8 +89,8 @@ class FamilyTreeTestCase(FoilTestCase):
     self.kb.add_all([self.mother, self.father])
   
   def testFindRecursiveRules(self):
-    from trimlogic.predicate import Rule, MutableRule
-    from trimlogic.foil import will_halt
+    from content.Foil-python.trimlogic.predicate import Rule, MutableRule
+    from content.Foil-python.trimlogic.foil import will_halt
     v, a = self.v, self.a
     self.loadFamilyTree1()
     mother = self.mother
