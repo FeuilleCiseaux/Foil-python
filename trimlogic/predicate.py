@@ -1,5 +1,5 @@
 import logging
-from trimlogic.term import *
+from content.Foil-python.trimlogic.term import *
 
 logger = logging.getLogger()
 
@@ -75,7 +75,7 @@ class RuleBasedPredicate(Predicate):
       self.arity = len(types)
     
   def _resolve(self, terms):
-    from trimlogic.algorithm import unify
+    from content.Foil-python.trimlogic.algorithm import unify
     logging.debug(str(self) + "._resolve( " + str(terms) + " ) ")
     for rule in self.rules:
       rule = rule.instantiate()
