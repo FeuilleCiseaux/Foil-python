@@ -1,17 +1,17 @@
 import unittest
 import logging
-from trimlogic.test.helper import FoilTestCase
-from trimlogic.predicate import KnowledgeBase
-from trimlogic.predicate import RuleBasedPredicate
-from trimlogic.predicate import VariableFactory, UniqueVariableFactory
-from trimlogic.predicate import AtomFactory
-from trimlogic.foil import TrainingSet, construct_clause_recursive
-from trimlogic.foil import find_gainful_and_determinate_literals, foil
-from trimlogic.foil import find_partial_ordering_of_terms
-from trimlogic.foil import determine_param_orderings
-from trimlogic.algorithm import fol_bc_ask
-from trimlogic.term import Atom, Term
-from trimlogic.stdlib import components, dot, plist
+from content.Foil-python.trimlogic.test.helper import FoilTestCase
+from content.Foil-python.trimlogic.predicate import KnowledgeBase
+from content.Foil-python.trimlogic.predicate import RuleBasedPredicate
+from content.Foil-python.trimlogic.predicate import VariableFactory, UniqueVariableFactory
+from content.Foil-python.trimlogic.predicate import AtomFactory
+from content.Foil-python.trimlogic.foil import TrainingSet, construct_clause_recursive
+from content.Foil-python.trimlogic.foil import find_gainful_and_determinate_literals, foil
+from content.Foil-python.trimlogic.foil import find_partial_ordering_of_terms
+from content.Foil-python.trimlogic.foil import determine_param_orderings
+from content.Foil-python.trimlogic.algorithm import fol_bc_ask
+from content.Foil-python.trimlogic.term import Atom, Term
+from content.Foil-python.trimlogic.stdlib import components, dot, plist
 
 class ListTestCase(FoilTestCase):
   
